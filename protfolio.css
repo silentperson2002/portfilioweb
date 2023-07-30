@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'poppins', sans-serif;
+}
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 10px;
+    background:transparent;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+}
+.logo{
+    /* position:relative; */
+    font-size: 25px;
+    color:#031540;
+    text-decoration: none;
+    font-weight:700;
+}
+.navbar a{
+    /* display:inline-block; */
+    font-size: 18px;
+    color:#fff;
+    text-decoration: none;
+    font-weight:500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover, 
+.navbar a.active{
+    color:#00abf0;
+}
+.Home {
+    /* position:relative;
+    width:100%;*/
+    justify-content: space-between; 
+    height:100vh;
+    background:linear-gradient(-90deg,#031540 65%,#fff 35%);  ;
+    /* background-repeat: cover;
+    background-position: center; */
+    display:flex;
+    align-items: center;
+    padding:0 10%;
+}
+.Home-img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height: 500px;
+    background: #031540;
+    border-radius: 50%;
+   border:25px solid #fff;
+   outline: 25px solid #031540;
+}
+.Home-img img{
+    position: relative;
+  max-width: 350px;;
+}
+
+.Home-content{
+    max-width:600px;
+    color:#fff;
+    text-align:right;
+}
+.Home-content h1{
+    font-size: 55px;
+    line-height: 1.2;
+    /* font-weight: 700;
+    margin:-3px 0; */
+}
+.Home-content h3{
+    font-size:40px;
+    color:#00abf0;
+    font-weight:700;
+    -webkit-text-stroke: .5px #fff;
+}
+.Home-content p{
+    font-size: 16px;
+    margin-top:20px;
+}
+.Home-sci{
+    margin:25px 0 40px;
+}
+.Home-sci a{
+    display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width:40px;
+  height:40px;
+  background:transparent;
+  border:2px solid #fff;
+  border-radius: 50%;
+  font-size:20px;
+  color:#0ef;
+  text-decoration: none;
+  margin-left:12px;
+  transition: .5s;
+}
+.Home-sci a:hover{
+    background: #00abf0;
+    color:#fff;
+    border-color:#00abf0;
+    box-shadow:0 0 10px #00abf0; 
+}
+.btn-box{
+    /* display:inline-block; */
+    padding:12px 35px;
+    background:#00abf0;
+    border-radius: 40px;
+    font-size: 17px;
+   color:#fff;
+   letter-spacing: 1px;
+   text-decoration: none;
+   font-weight: 600;
+   box-shadow:0 0 10px #00abf0;
+   transition: .5s;
+}
+.btn-box:hover{
+    box-shadow: none;
+}
